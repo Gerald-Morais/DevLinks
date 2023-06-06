@@ -184,6 +184,10 @@ body {
   transition: 0.4s;
 }
 
+.slider:hover {
+  outline: 8px solid var(--social-link-hover);
+}
+
 .slider:before {
   position: absolute;
   content: "";
