@@ -17,17 +17,17 @@ function ToogleMode() {
     })
   } else {
     img.setAttribute("src", "./assets/avatar-dark.png")
-    VANTA.HALO({
+    VANTA.NET({
       el: "#vanta-container",
       mouseControls: true,
       touchControls: true,
       gyroControls: false,
       minHeight: 200.0,
       minWidth: 200.0,
-      baseColor: 0xf7cc0,
-      backgroundColor: 0xb0b1b,
-      amplitudeFactor: 0.7,
-      size: 0.8,
+      scale: 1.0,
+      scaleMobile: 1.0,
+      color: 0x3f6cff,
+      backgroundColor: 0xd0d16,
     })
   }
 }
